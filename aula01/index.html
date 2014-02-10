@@ -3,21 +3,47 @@
 	<title>Minha primeira página</title>
 
 	<style type="text/css">
-		b {
-			font-size: 50px;
-			color: blue;
-			background-color: red;
-		}
+	b {
+		font-size: 50px;
+		color: blue;
+		background-color: red;
+	}
 
-		b i {
-			color: green;
-			margin: 50px;
-			text-transform: uppercase; 
-		}
+	b i {
+		color: green;
+		margin: 50px;
+		text-transform: uppercase; 
+	}
 
-		i {
-			color: blue;
-		}
+	i {
+		color: blue;
+	}
+
+	ul li ul li {
+		color: green;
+		font-weight: bolder; /*comentario*/
+	}
+
+	body {
+		/*cor da página cinza*/
+		background-color: #c9c9c9;
+	}
+
+	table, table td {
+		border: 1px dotted red;
+	}
+
+	a:hover {
+		background-color: pink;
+		margin-left: 30px;
+		margin-right: 2px;
+		margin-top: 3px;
+		margin-bottom: 4px;
+		margin: 10px;
+		margin: 3px 2px 4px 30px;
+		padding: 50px;
+	}
+
 	</style>
 
 </head>
@@ -33,11 +59,51 @@
 
 	<ul>
 		<li>Dispositivos Móveis</li>
-		<li>Desenvolvimento WEB</li>
+		<li>
+			Desenvolvimento WEB
+			<ul>
+				<li>Html</li>
+				<li>JavaScript</li>
+				<li>Css</li>
+				<li>JSF</li>
+				<li>AJAX</li>
+				<li>PrimeFaces</li>
+			</ul>
+		</li>
 		<li>Gestão Empresarial</li>
 		<li>Programação Orientada a Objetos</li>
 		<li>Programação Visual</li>
 	</ul>
 
-</html>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Time</th>
+				<th>Pontuação</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>Palmeiras</td>
+				<td>99++pts</td>
+			</tr>
+			<tr>
+				<td>Curintia</td>
+				<td>-6pts</td>
+			</tr>
+		</tbody>
+
+		<tfoot>
+			<tr>
+				<td>---</td>
+				<td>...</td>
+			</tr>
+		</tfoot>
+	</table>
+
+	<a href="pagina02.html">Vai, agora !</a>
+
+	</html>
 </body>
