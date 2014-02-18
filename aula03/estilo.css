@@ -1,0 +1,91 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+}
+
+body {
+	background-color: #f9f9f9;
+}
+
+#geral {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#geral #topo {
+	width: 100%;
+	padding: 15px;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+#geral #topo img {
+	margin-top: 5px; 
+	padding-right: 15px;
+	border-right: 1px solid #c9c9c9;
+}
+
+#geral #topo li {
+	list-style-type: none;
+	display: inline-block;
+	width: 100px;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+#geral #topo li:hover {
+	color: #0099cc;
+	cursor: pointer;
+}
+
+#geral #meio {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+#geral #base {
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+
+#geral #base ul {
+
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+#geral #base ul li {
+	list-style-type: none;
+	display: inline-block;
+	width: 150px;
+	background-color: #fff;
+	border: 1px solid #0099cc;
+	padding: 5px;
+	text-align: center;
+	color: #0099cc;
+	font-size: 14px;
+	float: left;
+	margin-left: 15px;
+}
+
+
+#geral #logo, #geral #topo {
+	float: left;
+}
+
+#geral #menu {
+	float: left;
+	margin-top: 13px;
+	margin-left: 20px;
+}
+
+#geral #menu li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+#geral #meio img {
+	width: inherit;
+}
