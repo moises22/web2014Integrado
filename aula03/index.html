@@ -4,21 +4,75 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 
 	<title>Aula 03 - HTML</title>
+
+	<script src="jquery.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+		function olaMundo () {
+			alert('Olá Mundo !');
+		}
+
+		function showMenu () {
+
+			var design = document.getElementById("design");
+			var develop = document.getElementById("develop");
+			var distribute = document.getElementById("distribute");
+
+			design.style.display = "block";
+			develop.style.display = "block";
+			distribute.style.display = "block";
+		}
+
+		function showMenuJquery () {
+			$('#design, #develop, #distribute').toggle("swing");
+		}
+
+	</script>
+
 </head>
+<!-- <body onLoad="olaMundo();"> -->
 <body>
 
 	<div id="geral">
 		<div id="topo">
-			<div id="logo">
+			<div id="logo" onclick="showMenuJquery ();">
 				<img src="img/logo.png" >
 			</div>
 
 			<ul id="menu">
-				<li>Design</li>
-				<li>Develop</li>
-				<li>Distribute</li>
+				<li>Design
+					<ul id="design">
+						<li><a href="#">Get Started</a></li>
+						<li><a href="#">Style</a></li>
+						<li><a href="#">Patterns</a></li>
+						<li><a href="#">Building Blocks</a></li>
+						<li><a href="#">Downloads</a></li>
+						<li><a href="#">Videos</a></li>
+					</ul>
+				</li>
+				<li>Develop
+					<ul id="develop">
+						<li><a href="#"> Item 1</a></li>
+						<li><a href="#"> Item 2</a></li>
+						<li><a href="#"> Item 3</a></li>
+						<li><a href="#"> Item 4</a></li>
+						<li><a href="#"> Item 5</a></li>
+					</ul>
+				</li>
+				<li>Distribute
+					<ul id="distribute">
+						<li><a href="#"> Item 1</a></li>
+						<li><a href="#"> Item 2</a></li>
+						<li><a href="#"> Item 3</a></li>
+						<li><a href="#"> Item 4</a></li>
+						<li><a href="#"> Item 5</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
+
+
 
 		<div id="meio">
 			<img src="img/meio.png">
