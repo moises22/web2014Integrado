@@ -19,6 +19,33 @@ body {
 	border-bottom: 1px solid #c9c9c9;
 }
 
+#geral #topo form {
+	float: right;
+	margin-top: 13px;
+	border-right: 1px solid #c9c9c9;
+}
+
+#geral #topo form input {
+	width: 170px;
+	height: 26px;
+	float: right;
+	border: 0px;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+#geral #topo form input:hover {
+	border-bottom: 1px solid #0099cc;
+	cursor: pointer;
+}
+
+#geral #topo form img {
+	border: 0px;
+	cursor: pointer;
+	float: right;
+	margin-top: 0px;
+	padding-right: 5px;
+}
+
 #geral #topo img {
 	margin-top: 5px; 
 	padding-right: 15px;
