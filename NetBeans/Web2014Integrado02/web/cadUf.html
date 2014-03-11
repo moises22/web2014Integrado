@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <style type="text/css">
+            .upper {
+                text-transform: uppercase;
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        <form method="GET" action="UfServlet">
+            <fieldset>
+                <legend>Cadastro de Unidade Federativa</legend>
+                
+                <label> 
+                    Código: 
+                    <input type="number" name="id" />
+                </label>
+                
+                <label>
+                    Nome: 
+                    <input type="text" name="nome" />
+                </label>
+                
+                <label>
+                    Sigla: 
+                    <input class="upper" type="text" name="sigla" maxlength="2" />
+                </label>
+                
+                <input type="submit" value="Salvar" /> 
+                <input type="reset" value="Limpar" />
+            </fieldset>
+        </form>
+        
+    </body>
+</html>
